@@ -1,7 +1,13 @@
 customerId,name,age,gender,location,interests,preferences,income,education,card
 2025A,Sai Yashwanth,25,M,New York,"Luxury Shopping, Travel, Dining","New Arrivals, Discounts",180000,Master,Diners Club Black card
-2025B,Vikrant,30,M,San Francisco,"Budget Shopping, Dining, Mortgage Payments","Home Loan, Rettirement Saving, ETFs",90000,Graduation,Regalia First card
-2025C,Manju,32,M,Los Angeles,"Flights, Hotels, Adventure Activities, Cameras","Travel Credit Cards, Digital Banking, International Insurance",85000,Graduation,Fredoom credit card
-2025D,Gautam,31,M,Seattle,"Family Vacataions, Kids, Education, Home essentials","Family insurance, Mortagage, Savings Accounts",100000,MBA,Money Back Credit card
-2025E,Vandana,25,F,Austin,"Gaming, Tech Gadgets, Streaming Subscriptions","Health Insurance, Mortagage, Saving Accounts",70000,Under graduate,Swiggy Bank credit card
+2025B,Vikrant,30,M,San Francisco,"Budget Shopping, Dining, Mortgage Payments","Home Loan, Retirement Saving, ETFs",90000,Graduation,Regalia First card
+2025C,Manju,32,M,Los Angeles,"Flights, Hotels, Adventure Activities, Cameras","Travel Credit Cards, Digital Banking, International Insurance",85000,Graduation,Freedom Credit card
+2025D,Gautam,31,M,Seattle,"Family Vacations, Kids, Education, Home essentials","Family insurance, Mortgage, Savings Accounts",100000,MBA,Money Back Credit card
+2025E,Vandana,25,F,Austin,"Gaming, Tech Gadgets, Streaming Subscriptions","Health Insurance, Mortgage, Saving Accounts",70000,Undergraduate,Swiggy Bank Credit card
 2025F,Lakshmi,50,F,Boston,"Online Shopping, Food Delivery, Travel","Crypto, Digital Banks",67000,Graduate,Shoppers Stop Credit card
+2025G,Arjun,28,M,Chicago,"Fitness, Sports Equipment, Outdoor Activities","Gym Memberships, Cashback Offers",75000,Graduate,Platinum Edge Credit card
+2025H,Meera,35,F,Miami,"Luxury Fashion, Jewelry, Fine Dining","Exclusive Offers, Premium Memberships",120000,Postgraduate,American Express Gold card
+2025I,Rahul,40,M,Dallas,"Real Estate, Investments, Business Travel","Wealth Management, Business Loans",200000,MBA,Corporate Credit card
+2025J,Ananya,22,F,San Diego,"Books, Online Courses, Freelancing Tools","Student Discounts, Learning Platforms",45000,Undergraduate,Student Advantage Credit card
+2025K,Kiran,45,M,Denver,"Cars, Home Renovation, Electronics","Auto Loans, Home Improvement Offers",95000,Graduate,Auto Rewards Credit card
+2025L,Priya,29,F,Atlanta,"Photography, Blogging, Social Media","Content Creation Tools, Digital Marketing Offers",80000,Graduate,Creative Rewards Credit card

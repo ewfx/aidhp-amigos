@@ -29,7 +29,7 @@ async function transactionPage({
       {},
       {
         vector: transaction.$vector,
-        limit: 6, // we will cut the first transaction and want to show 5 similar transactions
+        limit: 10, // we will cut the first transaction and want to show 5 similar transactions
         includeSimilarity: true,
       }
     )
