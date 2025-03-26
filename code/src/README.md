@@ -4,16 +4,19 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
+2. navigate to source code
+```sh
+   cd code/src
+ ```  
+3. Install dependencies  
+   ```sh
+   npm install 
+   ```
+4. Run the project  
+   ```sh
+   npm run dev  
+   ```
+ Not able to add astra db collection endpoint as it requires sharing of secrets, so will not be able to run(Need to have a .env file with ASTRA_DB_NAMESPACE,ASTRA_DB_COLLECTION,ASTRA_DB_API_ENDPOINT,ASTRA_DB_APPLICATION_TOKEN)  
 
 DB: Astra DB
 
