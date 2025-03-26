@@ -33,9 +33,19 @@ function Transaction({
         )}
       </div>
 
-      <div className="py-2">
-        <p className="text-lg font-semibold line-clamp-1 w-64">{transaction.card}</p>
-        <p className="text-gray-500 line-clamp-1">{transaction.interests}</p>
+      <div className="py-2 bg-gradient-to-r from-red-600 to-yellow-500 text-white rounded-lg shadow-lg p-4 w-64 h-40 flex flex-col items-center justify-center">
+        <div
+          className="w-16 h-16 flex items-center justify-center bg-gray-800 text-white text-lg font-bold rounded-full mb-2"
+          title={transaction.card}
+        >
+          {transaction.card
+            .split(" ")
+            .map((word) => word[0])
+            .join("")
+            .toUpperCase()
+            .slice(0, 3)}
+        </div>
+        <p className="text-lg font-semibold text-center">{transaction.card}</p>
       </div>
     </Link>
   );
