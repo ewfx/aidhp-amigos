@@ -49,7 +49,7 @@ async function transactionPage({
           className="shrink-0 rounded-lg "
         /> */}
         <div className="px-2 md:px-10 flex flex-col gap-y-2">
-          <h1 className="text-6xl font-bold">{transaction.name}</h1>
+          <h1 className="text-6xl font-bold">{transaction.card}</h1>
           <p className="text-gray-600">{transaction.age}</p>
           <p className="font-light">{transaction.$vectorize}</p>
 

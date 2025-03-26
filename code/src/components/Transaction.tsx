@@ -34,7 +34,7 @@ function Transaction({
       </div>
 
       <div className="py-2">
-        <p className="text-lg font-semibold line-clamp-1 w-64">{transaction.name}</p>
+        <p className="text-lg font-semibold line-clamp-1 w-64">{transaction.card}</p>
         <p className="text-gray-500 line-clamp-1">{transaction.interests}</p>
       </div>
     </Link>
