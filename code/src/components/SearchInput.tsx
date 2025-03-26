@@ -40,7 +40,7 @@ function SearchInput() {
         className="flex-1 p-5 outline-none"
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)} // Update `searchTerm` on input change
-        placeholder="What are your interests? e.g. Luxury Shopping, Gaming..."
+        placeholder="Search for interests, e.g., Shopping, Gaming, Travel..."
       />
     </div>
   );

@@ -33,7 +33,15 @@ function Transaction({
         )}
       </div>
 
-      <div className="py-2 bg-gradient-to-r from-red-600 to-yellow-500 text-white rounded-lg shadow-lg p-4 w-64 h-40 flex flex-col items-center justify-center">
+      <div className="py-2 bg-gradient-to-r from-red-600 to-yellow-500 text-white rounded-lg shadow-lg p-4 w-64 h-40 flex flex-col items-center justify-center relative">
+
+        <div className="absolute top-[40%] right-4 transform -translate-y-1/2 w-12 h-8 bg-yellow-500 rounded-lg shadow-inner border border-yellow-700 flex flex-col justify-center items-center">
+
+          <div className="w-10 h-1 bg-yellow-700 rounded-sm mb-1"></div>
+          <div className="w-10 h-1 bg-yellow-700 rounded-sm"></div>
+        </div>
+
+
         <div
           className="w-16 h-16 flex items-center justify-center bg-gray-800 text-white text-lg font-bold rounded-full mb-2"
           title={transaction.card}
@@ -45,6 +53,8 @@ function Transaction({
             .toUpperCase()
             .slice(0, 3)}
         </div>
+
+        {/* Card Name */}
         <p className="text-lg font-semibold text-center">{transaction.card}</p>
       </div>
     </Link>
