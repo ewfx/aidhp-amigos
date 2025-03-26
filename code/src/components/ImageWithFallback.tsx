@@ -11,17 +11,18 @@ const ImageWithFallback = (props: {
   const [imgSrc, setImgSrc] = useState(props.src);
 
   return (
-    <Image
-      width={300}
-      height={450}
-      {...props}
-      src={imgSrc}
-      onError={() => {
-        setImgSrc(
-          "https://davidkoepp.com/wp-content/themes/blankslate/images/transaction%20Placeholder.jpg"
-        );
-      }}
-    />
+    <></>
+    // <Image
+    //   width={300}
+    //   height={450}
+    //   {...props}
+    //   src={imgSrc}
+    //   onError={() => {
+    //     setImgSrc(
+    //       "https://davidkoepp.com/wp-content/themes/blankslate/images/transaction%20Placeholder.jpg"
+    //     );
+    //   }}
+    // />
   );
 };
 

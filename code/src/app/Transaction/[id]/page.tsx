@@ -14,7 +14,7 @@ async function transactionPage({
     id: string;
   };
 }) {
-  const transactions = db.collection("movie_reviews");
+  const transactions = db.collection("customer_profile");
 
   const search = await transactions.find({ $and: [{ _id: id }] });
 
@@ -41,13 +41,13 @@ async function transactionPage({
   return (
     <div>
       <div className="flex flex-col md:flex-row items-center gap-y-10 p-10 pb-0">
-        <Image
+        {/* <Image
           src={transaction.name}
           alt={transaction.name}
           width={300}
           height={450}
           className="shrink-0 rounded-lg "
-        />
+        /> */}
         <div className="px-2 md:px-10 flex flex-col gap-y-2">
           <h1 className="text-6xl font-bold">{transaction.name}</h1>
           <p className="text-gray-600">{transaction.age}</p>

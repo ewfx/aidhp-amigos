@@ -12,14 +12,14 @@ async function SearchTerm({
     term: string;
   };
 }) {
-  const transactions = db.collection("movie_reviews");
+  const transactions = db.collection("customer_profile");
 
   const similartransactions = (await transactions
     .find(
       {},
       {
         vectorize: term,
-        limit: 10,
+        limit: 2,
         // Do not include vectors in the output.
         projection: { $vector: 0 },
       }

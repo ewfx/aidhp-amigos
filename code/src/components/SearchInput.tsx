@@ -23,7 +23,7 @@ function SearchInput() {
         type="text"
         className="flex-1 p-5 outline-none"
         name="searchTerm"
-        placeholder="What type of film do you like? e.g. Sci-Fi films in space..."
+        placeholder="What are your interests? e.g. Luxury Shopping, Gaming..."
       />
     </form>
   );

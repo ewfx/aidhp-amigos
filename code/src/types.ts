@@ -11,6 +11,7 @@ export type transaction = {
   $vectorize: string;
   $vector: Array<number>;
   education: string;
+  card:string;
 };
 
 export type Similartransaction = {

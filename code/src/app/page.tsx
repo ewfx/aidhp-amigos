@@ -6,7 +6,7 @@ import { transaction } from "@/types";
 export const revalidate = 60 * 60 * 24;
 
 export default async function Home() {
-  const transactions = db.collection("movie_reviews");
+  const transactions = db.collection("customer_profile");
 
   const alltransactions = (await transactions
     .find(
